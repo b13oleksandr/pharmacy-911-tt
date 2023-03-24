@@ -102,11 +102,11 @@ const { errors, validate } = useForm({
     name: yup.string()
       .required("Обов'язкове поле")
       .min(20, 'Довжина має бути не менше 20 символів')
-      .matches(/^([а-яА-Я]+)?(і+)?(ы+)?$/ , 'Введіть кирилицю'),
+      .matches(/([а-яА-Я]+|і+|ы+)/ , 'Введіть кирилицю'),
     lastName: yup.string()
       .required('Обов\'язкове поле')
       .min(20, 'Довжина має бути не менше 20 символів')
-      .matches(/^([а-яА-Я]+)?(і+)?(ы+)?$/ , 'Введіть кирилицю'),
+      .matches(/([а-яА-Я]+|і+|ы+)/ , 'Введіть кирилицю'),
     phone: yup.string().required("Обов'язкове поле"),
   }
 })
@@ -133,6 +133,7 @@ const onAccept = async () => {
 .page-checkout {
   background: var(--color-background);
   padding-bottom: 150px;
+  min-height: 100vh;
   &__section-title {
     font-weight: 800;
     font-size: 20px;
