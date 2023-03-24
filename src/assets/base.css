@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --v-max-app-width: 390px;
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: #ffffff;
+  --color-accent: #3985C6;
+  --color-dark: #343442;
+  --color-white: #ffffff;
+  --color-light: #8592AA;
+  --color-red: #FF1D1D;
+  --color-success: #1C9A3F;
+  --color-text: #343442;
+  --color-card-bg: #ffffff;
+  --color-input: #ffffff;
+  --color-input-border: #E5EAEF;
+  --color-button-text: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #3D3D4F;
+    --color-accent: #F6D20B;
+    --color-dark: #343442;
+    --color-white: #ffffff;
+    --color-light: #818193;
+    --color-red: #FF1D1D;
+    --color-success: #58E880;
+    --color-text: #ffffff;
+    --color-card-bg: #343442;
+    --color-input: #242431;
+    --color-input-border: #464656;
+    --color-button-text: #242431;
+  }
+}
+
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.bg-dark {
+  background-color: var(--color-accent);
+}
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-light {
+  background-color: var(--color-light);
+}
+.bg-red {
+  background-color: var(--color-red);
+}
+.bg-success {
+  background-color: var(--color-success);
+}
+.bg-card {
+  background-color: var(--color-card-bg);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+.text-dark {
+  color: var(--color-dark);
+}
+.text-white {
+  color: var(--color-white);
+}
+.text-light {
+  color: var(--color-light);
+}
+.text-red {
+  color: var(--color-red);
+}
+.text-success {
+  color: var(--color-success);
+}
+.text-pimary {
+  color: var(--color-text);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--color-text);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+}

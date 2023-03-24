@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "oldPrice": 9.33,
+    "price": 8.33,
+    "image": "/product.jpg",
+    "inStock": true,
+    "provider": "Постачальник 1"
+  },
+  {
+    "id": 2,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "price": 9.33,
+    "image": "/product.jpg",
+    "inStock": false,
+    "provider": "Постачальник 2"
+  },
+  {
+    "id": 3,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "price": 9.33,
+    "image": "/product.jpg",
+    "inStock": true,
+    "provider": "Постачальник 1"
+  },
+  {
+    "id": 4,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "oldPrice": 9.33,
+    "price": 8.33,
+    "image": "/product.jpg",
+    "inStock": false,
+    "provider": "Постачальник 2"
+  },
+  {
+    "id": 5,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "price": 9.33,
+    "image": "/product.jpg",
+    "inStock": true,
+    "provider": "Постачальник 1"
+  },
+  {
+    "id": 6,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "price": 9.33,
+    "image": "/product.jpg",
+    "inStock": false,
+    "provider": "Постачальник 2"
+  },
+  {
+    "id": 7,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "oldPrice": 9.33,
+    "price": 8.33,
+    "image": "/product.jpg",
+    "inStock": true,
+    "provider": "Постачальник 1"
+  },
+  {
+    "id": 8,
+    "title": "Цитрамон-Дарниця табл. №10",
+    "price": 9.33,
+    "image": "/product.jpg",
+    "inStock": false,
+    "provider": "Постачальник 2"
+  }
+]
