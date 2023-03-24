@@ -134,6 +134,7 @@ const onAccept = async () => {
   background: var(--color-background);
   padding-bottom: 200px;
   max-height: 100vh;
+  min-height: 100vh;
   overflow: auto;
   &__section-title {
     font-weight: 800;
